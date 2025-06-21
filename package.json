@@ -1,6 +1,6 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "bannerpeek",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -16,7 +16,6 @@
     "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.454.0",
     "next": "15.2.4",
     "react": "^19",
     "react-dom": "^19",
