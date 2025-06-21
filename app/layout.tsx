@@ -8,7 +8,7 @@ import {
 } from "@/components/ServiceWorker";
 import { OfflineStorageInfo } from "@/components/OfflineStorageInfo";
 
-const siteUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://bannerpeek.com";
+const siteUrl = process.env.NEXT_PUBLIC_BASE_URL! ?? "https://bannerpeek.com";
 
 export const viewport: Viewport = {
   width: "device-width",
