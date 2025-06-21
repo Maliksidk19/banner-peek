@@ -61,7 +61,7 @@ export default function SocialBannerPreview() {
       <div className="relative px-3 sm:px-4 md:px-6 pb-4 md:pb-6">
         {/* Profile Picture */}
         <div className="absolute -top-8 sm:-top-12 md:-top-16 left-3 sm:left-4 md:left-6">
-          <div className="w-20 h-20 rounded-full border-2 md:border-4 border-white bg-gray-200 overflow-hidden">
+          <div className="w-32 h-32 rounded-full border-2 md:border-4 border-white bg-gray-200 overflow-hidden">
             {profileImage ? (
               <Image
                 src={profileImage}
@@ -155,8 +155,8 @@ export default function SocialBannerPreview() {
       <div className="relative px-4 pb-4">
         {" "}
         {/* Profile Picture - optimized for mobile LinkedIn display */}
-        <div className="absolute -top-8 left-4">
-          <div className="w-20 h-20 rounded-full border-4 border-white bg-gray-200 overflow-hidden shadow-sm">
+        <div className="absolute -top-16 left-4">
+          <div className="w-32 h-32 rounded-full border-4 border-white bg-gray-200 overflow-hidden shadow-sm">
             {profileImage ? (
               <Image
                 src={profileImage}
@@ -175,7 +175,7 @@ export default function SocialBannerPreview() {
           </div>
         </div>{" "}
         {/* Profile Info */}
-        <div className="pt-16">
+        <div className="pt-20">
           <div className="mb-3">
             <span className="text-xl font-semibold text-gray-900 block leading-tight">
               {name}
@@ -248,7 +248,7 @@ export default function SocialBannerPreview() {
       <div className="relative px-3 sm:px-4 pb-4">
         {/* Profile Picture */}
         <div className="absolute -top-8 sm:-top-12 md:-top-16 left-3 sm:left-4">
-          <div className="w-20 h-20 rounded-full border-2 md:border-4 border-white bg-gray-200 overflow-hidden">
+          <div className="w-32 h-32 rounded-full border-2 md:border-4 border-white bg-gray-200 overflow-hidden">
             {profileImage ? (
               <Image
                 src={profileImage}
