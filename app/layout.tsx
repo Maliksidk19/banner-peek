@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   applicationName: "BannerPeek",
   title: {
-    default: "BannerPeek - Preview Your Social Media Banners & Profile Photos",
+    default: "BannerPeek - Preview Your Social Profile before Going Live",
     template: "%s | BannerPeek",
   },
   description:
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    title: "BannerPeek - Preview Your Social Media Banners & Profile Photos",
+    title: "BannerPeek - Preview Your Social Profile before Going Live",
     description:
       "Free tool to preview how your LinkedIn and Twitter banners and profile photos will look on desktop and mobile before going live.",
     siteName: "BannerPeek",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BannerPeek - Preview Your Social Media Banners & Profile Photos",
+    title: "BannerPeek - Preview Your Social Profile before Going Live",
     description:
       "Free tool to preview how your LinkedIn and Twitter banners and profile photos will look on desktop and mobile before going live.",
     images: ["/og-image.png"],
