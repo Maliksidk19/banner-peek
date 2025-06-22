@@ -61,7 +61,7 @@ export default function SocialBannerPreview() {
       <div className="relative px-3 sm:px-4 md:px-6 pb-4 md:pb-6">
         {/* Profile Picture */}
         <div className="absolute -top-8 sm:-top-12 md:-top-16 left-3 sm:left-4 md:left-6">
-          <div className="w-32 h-32 rounded-full border-2 md:border-4 border-white bg-gray-200 overflow-hidden">
+          <div className="w-16 h-16 md:w-32 md:h-32 rounded-full border-2 md:border-4 border-white bg-gray-200 overflow-hidden">
             {profileImage ? (
               <Image
                 src={profileImage}
@@ -155,8 +155,8 @@ export default function SocialBannerPreview() {
       <div className="relative px-4 pb-4">
         {" "}
         {/* Profile Picture - optimized for mobile LinkedIn display */}
-        <div className="absolute -top-16 left-4">
-          <div className="w-32 h-32 rounded-full border-4 border-white bg-gray-200 overflow-hidden shadow-sm">
+        <div className="absolute -top-8 md:-top-16 left-4">
+          <div className="w-16 h-16 md:w-32 md:h-32 rounded-full border-4 border-white bg-gray-200 overflow-hidden shadow-sm">
             {profileImage ? (
               <Image
                 src={profileImage}
@@ -248,7 +248,7 @@ export default function SocialBannerPreview() {
       <div className="relative px-3 sm:px-4 pb-4">
         {/* Profile Picture */}
         <div className="absolute -top-8 sm:-top-12 md:-top-16 left-3 sm:left-4">
-          <div className="w-32 h-32 rounded-full border-2 md:border-4 border-white bg-gray-200 overflow-hidden">
+          <div className="w-16 h-16 md:w-32 md:h-32 rounded-full border-2 md:border-4 border-white bg-gray-200 overflow-hidden">
             {profileImage ? (
               <Image
                 src={profileImage}
@@ -450,8 +450,8 @@ export default function SocialBannerPreview() {
       <header>
         {" "}
         <nav className="max-w-6xl mx-auto px-4 py-4">
-          <div className="flex items-center">
-            <span className="text-xl font-bold text-gray-900 flex items-center">
+          <div className="flex items-center justify-center md:justify-start">
+            <span className="text-base font-bold text-gray-900 flex items-center">
               <Image
                 src="/logo.svg"
                 alt="BannerPeek Logo - Social Media Banner Preview Tool"
@@ -467,10 +467,10 @@ export default function SocialBannerPreview() {
         </nav>{" "}
         {/* Hero Content */}
         <section className="max-w-6xl mx-auto px-4 py-8 text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">
+          <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
             Preview Your Social Media Banners Before Going Live
           </h1>
-          <p className="text-base text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-sm md:text-base text-gray-600 mb-8 max-w-3xl mx-auto">
             See exactly how your LinkedIn and Twitter banners and profile photos
             will appear on desktop and mobile devices. Free tool, no
             registration required, your images stay private.
@@ -779,10 +779,10 @@ export default function SocialBannerPreview() {
 
         {/* Footer */}
         <footer className="text-center mt-12 py-8 border-t border-gray-200">
-          <p className="text-gray-600">
-            Made with ❤️ for professionals who care about their online presence
+          <p className="text-gray-600 text-sm font-semibold md:text-base px-4">
+            Made with ❤️ for professionals
           </p>
-          <p className="text-sm text-gray-500 mt-2">
+          <p className="text-xs text-muted-foreground mt-2 px-8 md:text-sm">
             Free tool • No registration required • Your images stay private in
             your browser
           </p>
